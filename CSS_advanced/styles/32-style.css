@@ -300,12 +300,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .card-work:hover .card-inner {
-    transition: background-color var(--transition-duration) var(--transition-cubic-bezier);
+    transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .card-work:hover .card-image {
-    transform: scale(1.2);
-    transition: transform var(--transition-duration) var(--transition-cubic-bezier);
+    transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .card-work:hover .card-outer {
@@ -314,8 +313,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav .nav-link::before {
-    transition-duration: var(--transition-duration);
-    transition-timing-function: var(--transition-cubic-bezier);
+    transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .button:hover {
@@ -323,7 +321,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .card-work:hover .card-image {
-    transition: transform var(--transition-duration) var(--transition-cubic-bezier);
+    transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .card-work .card-title {
