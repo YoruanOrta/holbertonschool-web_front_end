@@ -1,8 +1,6 @@
 /* Smooth scrolling */
 html {
     scroll-behavior: smooth;
-
-    /* Custom properties */
     --color-primary: #d73953;
     --color-black: #090909;
     --color-white: #ffffff;
