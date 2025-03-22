@@ -314,7 +314,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav .nav-link::before {
-    transition: width var(--transition-duration) var(--transition-cubic-bezier);
+    transition-duration: var(--transition-duration);
+    transition-timing-function: var(--transition-cubic-bezier);
 }
 
 .button:hover {
