@@ -304,7 +304,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .card-work:hover .card-image {
-    transition: var(--transition-duration) var(--transition-cubic-bezier);
+    transition: transform var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .card-work:hover .card-outer {
