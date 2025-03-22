@@ -217,13 +217,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer-address {
-    color: var(--text-color); /* Set text color to the value of the text-color property */
+    color: var(--text-color); /* Set the color of the text using the text-color custom property */
 }
 
+/* Style for .social-link class */
 .social-link {
-    display: block; /* Make the social-link a block element */
-}
+        display: block; /* Renders the social-link as a block element */
+} 
 
-.social-link svg {
-    fill: var(--text-color); /* Set the fill color of the svg children to the text-color property */
+/* Style for svg children within .social-link */
+.social-link > svg{
+        fill: var(--text-color); /* Fill in the color of the svg children with the text-color variable */
 }
