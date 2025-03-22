@@ -50,6 +50,7 @@ a {
     text-decoration: none;
     font-style: italic;
 }
+
 a:visited {
     color: var(--text-color);
     font-style: italic;
