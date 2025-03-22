@@ -144,6 +144,7 @@ a {
     padding: 0;
     list-style: none;
     text-align: center;
+    font-size: var(--nav-item-font-size);
 }
 
 .nav-item {
@@ -157,7 +158,11 @@ a {
 
 .nav-link {
     display: block;
-    padding: 0.5rem var(--font-size-medium);
+    padding: 0.5rem 1rem;
+}
+
+.nav .nav-link { /* Ensure both `.nav` and `.nav-link` have correct padding */
+    padding: 0.5rem 1rem;
 }
 
 .nav-link:hover {
