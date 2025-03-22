@@ -304,8 +304,8 @@ h1, h2, h3, h4, h5, h6 {
     transition: transform var(--transition-duration) var(--transition-cubic-bezier); /* Add transition for scale */
 }
 
-.card-work:hover .card-image {
-    transition: var(--transition-duration) var(--transition-cubic-bezier); /* Ensure smooth scaling */
+.card-work .card-inner {
+    transition: var(--transition-duration) var(--transition-cubic-bezier); /* Smooth transition for inner card */
 }
 
 .card-work:hover .card-outer {
